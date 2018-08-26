@@ -1,0 +1,133 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+
+html, body {
+  font-family: "Gravity-Book";
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  background-size: cover;
+}
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  text-align: center;
+  transition: .5s;
+}
+
+.navbar ul {
+  margin: 20px;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline;
+  padding: 10px 50px;
+  color: white;
+  font-size: 17px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: .5s;
+}
+
+.navbar ul li a {
+  color: #444;
+  text-decoration: none;
+}
+
+.navbar ul li:hover {
+  background: rgba(197, 197, 197, 0.5)
+}
+
+.homeImg {
+  background-image: url("../images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.homeDiv {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.titleMain {
+  margin: 0;
+  letter-spacing: 10px;
+}
+
+.titleLittle {
+  letter-spacing: 5px;
+}
+
+.aboutMe {
+  margin: 0;
+  padding: 100px;
+  text-align: center;
+}
+
+.aboutMe img {
+  width: 30%;
+  border-radius: 25px;
+}
+
+.aboutMe p {
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.findMe {
+  background-color: #212529;
+  /* padding-bottom: 5px; */
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.findMe h3 {
+  /* padding-top: 20px; */
+  padding: 25px;
+  letter-spacing: 4px;
+}
+
+.findMe h4 {
+  padding: 20px;
+  letter-spacing: 2px;
+}
+
+.socialIcons {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.socialIcons li {
+  display: inline;
+  padding: 2em;
+}
